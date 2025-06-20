@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Spider-Man",
+        "alterego": "Peter Parker",
+        "description": "Superhéroe arácnido de Marvel",
+        "powers": [
+            "Agilidad",
+            "Sentido arácnido",
+            "Trepar muros"
+        ]
+    },
+    {
+        "name": "Iron Man",
+        "alterego": "Tony Stark",
+        "description": "Genio, millonario, playboy, filántropo",
+        "powers": [
+            "Armadura",
+            "Vuelo",
+            "Rayos repulsores"
+        ]
+    },
+    {
+        "name": "Hulk",
+        "alterego": "Bruce Banner",
+        "description": "El gigante esmeralda",
+        "powers": [
+            "Fuerza",
+            "Regeneración"
+        ]
+    }
+]
