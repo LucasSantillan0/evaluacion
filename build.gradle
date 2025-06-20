@@ -27,3 +27,16 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+sourceSets {
+    test {
+        resources {
+            srcDirs += ['src/test/java']
+            includes = ['**/*.feature', '**/*.json']
+        }
+    }
+}
+
+tasks.withType(ProcessResources).configureEach {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
